@@ -8,13 +8,14 @@ for i in range(w):
         sum=0
         for k in s:
             if k==l:
-                sum+=s.index(k)
-        if sum>=ord(l)-64:
-            count+=count
+                sum+=1
+        if sum>=(ord(l)-64):
+            count+=1
     
     print(count)
+  
     
-    """
+"""
     for l in s:
         if ord(l)-64<=c:
             sum=sum+1
