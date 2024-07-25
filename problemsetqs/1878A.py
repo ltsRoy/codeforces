@@ -11,7 +11,7 @@ print('\n'.join("YES" if input().split()[1] in input().split() else "NO" for _ i
 
 """print("YES" if input().split()[1] in input().split() else "NO" for i in range(int(input())))
  WRONG """
-    """
+"""
     b=False
     if y>=-1:
         b=True  
