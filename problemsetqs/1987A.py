@@ -1,6 +1,8 @@
 w=int(input())
 for i in range(w):
     a,b = input().split()
+    print(a,b)
+    """
     n,k=int(a),int(b)
     g,s=0,1
     while (g<n):
@@ -8,4 +10,4 @@ for i in range(w):
         g=g+1
     else:
         print(s)
- 
+ """
