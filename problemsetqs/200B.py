@@ -1,8 +1,8 @@
 n=int(input())
-sum=0
-for i in range(n):
-    a = input()
-    if a.count('1')>=2:
-        sum+=1
+s=0
 
-print(sum)
+f = input().split()
+f = [int(x) for x in f]
+s+=sum(f)
+print(s/n)
+
