@@ -5,3 +5,5 @@ for i in range(w):
     a = sorted(list(map(int, input().split())))
     ans = 2 * (a[n - 1] + a[n - 2] - a[1] - a[0])
     print(ans)
+    
+    
