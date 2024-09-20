@@ -1,6 +1,4 @@
 w=int(input())
-
-
 for i in range(w):
     n = int(input())
     s = input()
